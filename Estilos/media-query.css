@@ -23,10 +23,12 @@
     } 
     
     section#login>div#img{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
     }
     section#login>div#formu{
         float: right;
